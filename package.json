@@ -24,7 +24,7 @@
     "gulp-copy": "^5.0.0",
     "gulp-csso": "^4.0.1",
     "gulp-html-bemlinter": "^5.0.1",
-    "gulp-imagemin": "^7.1.0",
+    "gulp-imagemin": "7.1.0",
     "gulp-notify": "^5.0.0",
     "gulp-postcss": "^10.0.0",
     "gulp-pug": "^5.0.0",
@@ -44,5 +44,14 @@
     "stylelint-order": "^6.0.4",
     "w3c-html-validator": "^1.8.2"
   },
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NailMarkov/nutritionist.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/NailMarkov/nutritionist/issues"
+  },
+  "homepage": "https://github.com/NailMarkov/nutritionist#readme"
 }
