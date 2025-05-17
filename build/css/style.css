@@ -1,7 +1,21 @@
 @font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
-  font-weight: 400;
+  font-family: "Urbanist";
+  src: url("../fonts/Urbanist-Medium.woff2") format("woff2"), url("../fonts/Urbanist-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Urbanist";
+  src: url("../fonts/Urbanist-SemiBold.woff2") format("woff2"), url("../fonts/Urbanist-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Urbanist";
+  src: url("../fonts/Urbanist-Bold.woff2") format("woff2"), url("../fonts/Urbanist-Bold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -20,10 +34,10 @@ body {
 
 html {
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Urbanist", "Arial", sans-serif;
   color: #333333;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
